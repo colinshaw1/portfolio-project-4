@@ -21,6 +21,10 @@ class Post(models):
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices==STATUS, default=0)
 
-
+# meta class to order and sort results in order of created on so most recent posts show first
 class Meta:
     ordering = ['-created_on']
+
+# string class to read title representation in adminsitration site
+class __str__(self):
+    return self.film_title
