@@ -20,3 +20,7 @@ class Post(models):
     #results are sorted in order of created on from meta class
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices==STATUS, default=0)
+
+
+class Meta:
+    ordering = ['-created_on']
