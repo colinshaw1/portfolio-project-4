@@ -13,8 +13,9 @@ STATUS = (
 class Post(models.Model):
     film_title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
-    director = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts_director')
-    actor = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts_actor')
+    blogger = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
+    director = models.CharField(max_length=200, unique=True)
+    actor = models.CharField(max_length=200, unique=True)
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
     # results are sorted in order of created on from meta class
