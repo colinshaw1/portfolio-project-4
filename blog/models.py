@@ -11,15 +11,15 @@ STATUS = (
 
 # class for posting data to databse with approriate information
 class Post(models.Model):
-    film_title = models.CharField(max_length=200, unique=True)
-    slug = models.SlugField(max_length=200, unique=True)
-    blogger = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
-    director = models.CharField(max_length=200, unique=True)
-    actor = models.CharField(max_length=200, unique=True)
-    updated_on = models.DateTimeField(auto_now=True)
+    film_title = models.CharField(max_length=200, unique=True, null=True) 
+    slug = models.SlugField(max_length=200, unique=True, null=True)
+    blogger = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts', null=True)
+    director = models.CharField(max_length=200, unique=True, null=True)
+    actor = models.CharField(max_length=200, unique=True, null=True)
+    updated_on = models.DateTimeField(auto_now=True, null=True)
     content = models.TextField()
     # results are sorted in order of created on from meta class
-    created_on = models.DateTimeField(auto_now_add=True)
+    created_on = models.DateTimeField(auto_now_add=True, null=True)
     status = models.IntegerField(choices=STATUS, default=0)
 
     # meta class to order and sort results in order of created 
@@ -29,4 +29,4 @@ class Post(models.Model):
 
     # string class to read title representation in adminsitration site
     def __str__(self):
-        return self.title
+        return self.film_title
