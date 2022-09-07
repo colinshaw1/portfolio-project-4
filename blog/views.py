@@ -7,3 +7,7 @@ class ListPost(generic.ListView):
     # filter allows only published statuses to be showen
     query = Post.objects.filter(status=1).order_by('-created_on')# - before created on allows latest post be shown
     template = 'index.html'
+
+class DetailsPost(generic.DetailView):
+    model = Post
+    template = 'details_post.html'
