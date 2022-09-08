@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # allows requests be handles by the filmblog app
-    path('', include(blog.urls)),
+    path('', include('blog.urls')),
 ]
