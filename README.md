@@ -22,7 +22,7 @@ Screenshots of Application
 
 
 
-User Experience
+Agile Methoglogy
 --
 
 
