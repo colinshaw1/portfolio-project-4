@@ -1,9 +1,9 @@
 Film Blog
 --
+For my milestone project 4 for Code Institute Diplome in Software development, i have choose Project Example Idea 2 Reddit Style News Site. Except this site will be for movie reviewers to be able to give there opions on films, directors or Actors. Film Blog provodes a platrfom for movie loveres to reach out and connect with each other and share there ideas and thoughts. We are all critics at heart so it is great to be able to express yourself.  
 
 
-
-intended for?
+Who is Film Blog intended for?
 --
 
 
