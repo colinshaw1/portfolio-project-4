@@ -1,5 +1,4 @@
-{% extends "base.html" %}
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <style>
     body {
         font-family: "Roboto", sans-serif;
@@ -7,13 +6,6 @@
         background-color: #fdfdfd;
     }
 
-    .head_text {
-        color: white;
-    }
-
-    .card {
-        box-shadow: 0 16px 48px #A9A9A9;
-    }
 </style>
     <!--bootstarp contact form-->
     <h1 class="text-center">Contact Form</h1>
@@ -33,11 +25,6 @@
                 <input type="submit" class="btn btn-success btn-lg mt-1 ml-4" value="button">
             </div>
         </form>
-    </div>
-
-            {% endfor %}
-        </div>
-        {% block sidebar %}  {% endblock sidebar %}
     </div>
 </div>
 {%endblock%}
