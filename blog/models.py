@@ -55,4 +55,4 @@ class Comments(models.Model):
         ordering = ['created_on']
 
     def __str__(self):
-        return 'Comment {} by {}_1d'.format(self.body, self.name)
+        return 'Comment {} by {}'.format(self.body, self.name)
