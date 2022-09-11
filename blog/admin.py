@@ -15,7 +15,7 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug':('film_title',)}
 
 #registers the comments into admin area
-@admin.register(comment)
+@admin.register(Comments)
 # class to customise the representation of data
 class CommentAdmin(admin.ModelAdmin):
     list_display=('name', 'body', 'post', 'created_on', 'active')
@@ -23,8 +23,8 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ('name', 'body')
     actions =['approve_comments']
 
-    def approve_comments(self, request, queryset)
-    queryset.update(active=True)
+    def approve_comments(self, request, queryset):
+      queryset.update(active=True)
 
 # Register your models here.
 admin.site.register(Post, PostAdmin)

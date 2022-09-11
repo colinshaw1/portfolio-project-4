@@ -45,14 +45,14 @@ class Post(models.Model):
 
 #class for commetns model to post with correct infromation
 class Comments(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE)
-    name = models.CharField(max_length=200)
-    body = models.TextField()
-    created_on = models.DateTimeField(auto_now_add=True)
-    active =models.BooleanField(default=True)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, null=True)
+    name = models.CharField(max_length=200, unique=True, null=True)
+    body = models.TextField(unique=True, null=True)
+    created_on = models.DateTimeField(auto_now_add=True,unique=True, null=True)
+    active =models.BooleanField(default=True,unique=True, null=True)
 
     class Meta:
         ordering = ['created_on']
 
     def __str__(self):
-        return 'Comment {} by {}'.format(self.body,)
+        return 'Comment {} by {}_1d'.format(self.body, self.name)
