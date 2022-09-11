@@ -1,14 +1,16 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
-from .models import Post, Contact
+from .models import Post, Contact, Comment
 from .forms import CommentForm
+import logging
+
+
 # return http response
 from django.http import HttpResponse
 
+
 # Create your views here.
 # subclass ListView allows rendering a list with objects of models
-
-
 class ListPost(generic.ListView):
     # filter allows only published statuses to be showen on the front end
     # - before created on allows latest post be shown
@@ -16,13 +18,12 @@ class ListPost(generic.ListView):
     template_name = 'index.html'
 
 
+
 class DetailsPost(generic.DetailView):
     model = Post
     template_name = 'details_post.html'
 
 # function to render contact form
-
-
 def Contact(request):
     if request.method == "POST":
         contact = Contact()
@@ -37,12 +38,11 @@ def Contact(request):
 
     return render(request, 'contact.html')
 
-
 def details_post(request, slug):
-    print('here')
+    logging.error('here')
     template_name = 'details_post.html'
     post = get_object_or_404(Post, slug=slug)
-    comment = post.comment.filter(active=True)
+    comment = post.comments.filter(active=True)
     new_comment = None
     # Comment posted
     if request.method == 'POST':
@@ -60,6 +60,6 @@ def details_post(request, slug):
         comment_form = CommentForm()
 
     return render(request, template_name, {'post': post,
-                                           'comment': comment,
+                                           'comments': comment,
                                            'new_comment': new_comment,
                                            'comment_form': comment_form})
