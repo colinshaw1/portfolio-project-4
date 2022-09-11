@@ -12,3 +12,7 @@ class ListPost(generic.ListView):
 class DetailsPost(generic.DetailView):
     model = Post
     template_name = 'details_post.html'
+
+# function to render contact form
+def contact(request):
+    return render(request, 'contact.html')
