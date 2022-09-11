@@ -44,12 +44,13 @@ class Post(models.Model):
         return self.film_title
 
 #class for commetns model to post with correct infromation
-class Comments(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE, null=True)
-    name = models.CharField(max_length=200, unique=True, null=True)
-    body = models.TextField(unique=True, null=True)
-    created_on = models.DateTimeField(auto_now_add=True,unique=True, null=True)
-    active =models.BooleanField(default=True,unique=True, null=True)
+class Comment(models.Model):
+    post = models.ForeignKey(Post,on_delete=models.CASCADE,related_name='comments')
+    name = models.CharField(max_length=80)
+    email = models.EmailField()
+    body = models.TextField()
+    created_on = models.DateTimeField(auto_now_add=True)
+    active = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['created_on']

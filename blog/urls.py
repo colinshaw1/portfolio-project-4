@@ -1,6 +1,7 @@
 from . import views
 from django.urls import path
 
+
 urlpatterns = [
     # '' represents empty string and returns an result from ListPost
     path('', views.ListPost.as_view(), name='home'),
