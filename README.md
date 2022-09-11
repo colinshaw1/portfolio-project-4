@@ -14,7 +14,7 @@ The owner of this game is Colin Shaw. The goal is to help film lovers express th
 
 How to use
 --
-
+Film blog is depolyed and you can see reviews and comments from other owners, if a user wants to leave a review they have to supply there email and discuss with Admin if they can get a log in to share views. Anyone can leave a comment but it has to be approved by Admin before it is published. 
 
 Screenshots of Application
 --
