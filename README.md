@@ -5,12 +5,12 @@ For my milestone project 4 for Code Institute Diplome in Software development, i
 
 Who is Film Blog intended for?
 --
-
+Film Blog is intened to attract movie bloggers but will be limited to approval from administration. The purpose is to attract individuals who wat to share information about there love for movies and thoughts on the dirctors, actors and cinomagraph. 
 
 
 Owner
 --
-The owner of this game is Colin Shaw. 
+The owner of this game is Colin Shaw. The goal is to help film lovers express there feelings in a safe and secure environment. 
 
 How to use
 --
