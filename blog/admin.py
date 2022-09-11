@@ -1,6 +1,6 @@
 from django.contrib import admin
 #import from models file for post method
-from .models import Post
+from .models import Post, Contact
 
 
 # add class for making admin dashbord have filters, searchs and list fileds using djangos bnuilt in methods
@@ -15,4 +15,4 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug':('film_title',)}
 
 # Register your models here.
-admin.site.register(Post, PostAdmin)
+admin.site.register(Post, PostAdmin, Contact)

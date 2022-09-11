@@ -9,6 +9,16 @@ STATUS = (
     (1, "Publish")
 )
 
+
+#create class for contact models 
+class Contact(models.Model):
+    name=models.CharField(max_length=200)
+    email=models.EmailField()
+    subject=models.TextField()
+    def __str__(self):
+        return self.name
+
+
 # class for posting data to databse with approriate information
 class Post(models.Model):
     film_title = models.CharField(max_length=200, unique=True, null=True) 
@@ -21,6 +31,8 @@ class Post(models.Model):
     # results are sorted in order of created on from meta class
     created_on = models.DateTimeField(auto_now_add=True, null=True)
     status = models.IntegerField(choices=STATUS, default=0)
+
+
 
     # meta class to order and sort results in order of created 
     # on so most recent posts show first
