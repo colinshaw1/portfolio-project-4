@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.views import generic
 from .models import Post, Contact
+# return http response
+from django.http import HttpResponse
 
 # Create your views here.
 # subclass ListView allows rendering a list with objects of models
@@ -24,6 +26,8 @@ def Contact(request):
         subject=request.POST.get('subject')
         contact.name
         contact.email=email
-        contact.subject=sunject
+        contact.subject=subject
+        contact.save()
+        return HttpResponse("<h1>Thank you for contacting Film Blog</h1>")
         
     return render(request, 'contact.html')    
