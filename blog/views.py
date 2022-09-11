@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from .models import Post
+from .models import Post, Contact
 
 # Create your views here.
 # subclass ListView allows rendering a list with objects of models
@@ -16,6 +16,14 @@ class DetailsPost(generic.DetailView):
     template_name = 'details_post.html'
 
 # function to render contact form
-class Contact(generic.DeleteView):
-    model = Post
-    template_name = 'contact.html'
+def Contact(request):
+    if request.method=="POST":
+        contact=Contact()
+        name=request.POST.get('name')
+        email=request.POST.get('email')
+        subject=request.POST.get('subject')
+        contact.name
+        contact.email=email
+        contact.subject=sunject
+        
+    return render(request, 'contact.html')    
