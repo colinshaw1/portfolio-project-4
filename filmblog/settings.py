@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-vq764qp01cc.ws-eu63.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-xvrlb20cbgv.ws-eu64.gitpod.io']
 
 # Application definition
 
