@@ -6,4 +6,6 @@ urlpatterns = [
     path('', views.ListPost.as_view(), name='home'),
     # <slug> in the brackets captures the values from the url and returns the post details
     path('<slug:slug>/', views.DetailsPost.as_view(), name='details_post'),
+    # create path for contact form
+    path('', views.contact, name='contact'),
 ]

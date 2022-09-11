@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        background-color: #fdfdfd;
+    }
+
+    .head_text {
+        color: white;
+    }
+
+    .card {
+        box-shadow: 0 16px 48px #A9A9A9;
+    }
+</style>
+    <!--bootstarp contact form-->
+    <h1 class="text-center">Contact Form</h1>
+
+    <div class="container">
+        <form class="" action="#">
+            <div class="form-group">
+                <label for="fname">Your Name</label>
+                <input class="form-control" type="text" name="fname" id="fname" placeholder="Enter Name">
+
+                <label for="email">Your Email Address</label>
+                <input class="form-control" type="teemailt" name="email" id="email" placeholder="Enter Your Email Please">
+
+                <label for="subject">Subject</label>
+                <textarea class="form-control" type="subject" name="subject" id="subject" placeholder="Subject">
+
+                <input type="submit" class="btn btn-success btn-lg mt-1 ml-4" value="button">
+            </div>
+        </form>
+    </div>
+
+            {% endfor %}
+        </div>
+        {% block sidebar %}  {% endblock sidebar %}
+    </div>
+</div>
+{%endblock%}
