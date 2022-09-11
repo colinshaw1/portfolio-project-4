@@ -46,7 +46,11 @@
         <form method="post" style="margin-top: 1.3em;">
           {{ comment_form.as_p }}
           {% csrf_token %}
-          <button type="submit" class="btn btn-primary  btn-lg">Submit</button>
+          <label for="name">Name:</label>
+          <textarea class="form-control" id="name" rows="1"></textarea>
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" id="comment" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
         </form>
         {% endif %}
       </div>

@@ -38,13 +38,15 @@ def Contact(request):
     return render(request, 'contact.html')
 
 
-def post_detail(request, slug):
+def details_post(request, slug):
+    print('here')
     template_name = 'details_post.html'
     post = get_object_or_404(Post, slug=slug)
     comment = post.comment.filter(active=True)
     new_comment = None
     # Comment posted
     if request.method == 'POST':
+        
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
 
