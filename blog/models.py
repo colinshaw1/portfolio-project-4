@@ -43,7 +43,7 @@ class Post(models.Model):
     def __str__(self):
         return self.film_title
 
-
+#class for commetns model to post with correct infromation
 class Comments(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)

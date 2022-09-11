@@ -1,6 +1,6 @@
 from django.contrib import admin
 #import from models file for post method
-from .models import Post, Contact
+from .models import Post, Contact, Comments
 
 
 # add class for making admin dashbord have filters, searchs and list fileds using djangos bnuilt in methods
@@ -13,6 +13,18 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ['film_title', 'content']
     # attribute to populate the slug
     prepopulated_fields = {'slug':('film_title',)}
+
+#registers the comments into admin area
+@admin.register(comment)
+# class to customise the representation of data
+class CommentAdmin(admin.ModelAdmin):
+    list_display=('name', 'body', 'post', 'created_on', 'active')
+    list_filter = ('active', 'created_on')
+    search_fields = ('name', 'body')
+    actions =['approve_comments']
+
+    def approve_comments(self, request, queryset)
+    queryset.update(active=True)
 
 # Register your models here.
 admin.site.register(Post, PostAdmin)
