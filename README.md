@@ -46,7 +46,15 @@ Structure Plane
 
 Technologies used
 --
+• Python is used to implement complex functionse 
 
+• Django is used as it is a python based framework and its models, templates and views simplify complex tasks
+
+• Git for storing files and deployment 
+
+• Heroku is used for final deployment
+
+• Gitpod for design
 
 
 Resources
