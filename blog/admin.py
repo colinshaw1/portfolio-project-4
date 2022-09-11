@@ -15,4 +15,5 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug':('film_title',)}
 
 # Register your models here.
-admin.site.register(Post, PostAdmin, Contact)
+admin.site.register(Post, PostAdmin)
+admin.site.register(Contact)
