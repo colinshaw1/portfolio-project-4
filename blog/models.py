@@ -56,6 +56,5 @@ class Comment(models.Model):
         ordering = ['created_on']
 
     def __str__(self):
-        logging.error(self)
         return self.body
         

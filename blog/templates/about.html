@@ -1,22 +1,25 @@
 {% block sidebar %}
 
 <style>
-        .card{
-            box-shadow: 0 16px 48px #E3E7EB;
-        }
-
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+    }
 </style>
 
 <!-- Sidebar Widgets Column -->
+
 <div class="col-md-4 float-right ">
-<div class="card my-4">
+    <div class="card my-4">
         <h5 class="card-header">About Us</h5>
-    <div class="card-body">
-        <p class="card-text"> Thsi film blog is for all film lovers and all opionions are welcome here</p>
-        <a href="{% url 'contact' %}"
-           class="btn btn-danger">Know more!</a>
+        <div class="card-body">
+            <p class="card-text"> This film blog is for all film lovers and all opionions are welcome here! If you would
+                like to be part of the Film Blog, please enter your email address to discuss getting added to the form!
+            </p>
+            <label for="email">Your Email Address</label>
+            <input class="form-control" type="teemailt" name="email" id="email" placeholder="Enter Your Email Please">
+            <button type="submit" class="btn btn-primary btn-lg">Enter</button>
+        </div>
     </div>
-</div>
 </div>
 
 {% endblock sidebar %}

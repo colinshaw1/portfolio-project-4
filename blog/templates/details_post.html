@@ -20,7 +20,7 @@
     <div class="col-md-8 card mb-4  mt-3 ">
       <div class="card-body">
         <!-- comments -->
-        <h2>{{ comments.count }} comments</h2>
+        <h2>{{ comments.count }} Comment </h2>
 
         {% for comment in comments %}
         <div class="comments" style="padding: 10px;">
@@ -46,7 +46,7 @@
         <form method="post" action="comment" style="margin-top: 1.3em;">
           {{ comment_form.as_p }}
           {% csrf_token %}
-          <button type="submit" class="btn btn-primary btn-lg">Comment</button>
+          <button type="submit" class="btn btn-primary btn-lg">View or Leave Comment</button>
         </form>
         {% endif %}
       </div>

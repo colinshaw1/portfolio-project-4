@@ -42,6 +42,7 @@ def details_post(request, slug):
     logging.error('here')
     template_name = 'details_post.html'
     post = get_object_or_404(Post, slug=slug)
+    # comments = get_object_or_404(Comment, slug=slug)
     comment = post.comments.filter(active=True)
     new_comment = None
     # Comment posted
