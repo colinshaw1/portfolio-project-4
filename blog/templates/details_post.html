@@ -13,7 +13,7 @@
         <p class="card-text ">{{ object.content | safe }}</p>
       </div>
     </div>
-
+    {% block about %} {% include 'about.html' %} {% endblock about %}
    
 
 
@@ -52,5 +52,5 @@
   </div>
 
 </div>
-{% block about %} {% include 'about.html' %} {% endblock about %}
+
 {% endblock content %}
