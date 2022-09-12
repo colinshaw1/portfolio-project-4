@@ -11,5 +11,5 @@ urlpatterns = [
     # path('<slug:slug>/', views.ListComment.as_view(), name='details_post'),
     path('<slug:slug>/comment', views.details_post, name='comment'),
     # create path for contact form
-    path('', views.Contact, name='contact'),
+    path('<slug:slug>/Contact', views.Contact, name='about'),
 ]

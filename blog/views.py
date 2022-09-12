@@ -26,13 +26,9 @@ class DetailsPost(generic.DetailView):
 # function to render contact form
 def Contact(request):
     if request.method == "POST":
-        contact = Contact()
         name = request.POST.get('name')
         email = request.POST.get('email')
-        subject = request.POST.get('subject')
-        contact.name
         contact.email = email
-        contact.subject = subject
         contact.save()
         return HttpResponse("<h1>Thank you for contacting Film Blog</h1>")
 

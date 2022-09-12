@@ -1,5 +1,5 @@
 from django.contrib import admin
-#import from models file for post method
+# import from models file for post method
 from .models import Post, Contact, Comment
 
 
@@ -12,9 +12,11 @@ class PostAdmin(admin.ModelAdmin):
     # attribute to search the database for film titles and content
     search_fields = ['film_title', 'content']
     # attribute to populate the slug
-    prepopulated_fields = {'slug':('film_title',)}
+    prepopulated_fields = {'slug': ('film_title',)}
 
-#registers the comments into admin area
+# registers the comments into admin area
+
+
 @admin.register(Comment)
 # class to customise the representation of data
 class CommentAdmin(admin.ModelAdmin):
@@ -26,6 +28,13 @@ class CommentAdmin(admin.ModelAdmin):
     def approve_comments(self, request, queryset):
         queryset.update(active=True)
 
+
+@admin.register(Contact)
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ('email', 'name')
+
+    def approve_email(self, request, queryset):
+        queryset.update(active=True)
+
 # Register your models here.
 admin.site.register(Post, PostAdmin)
-admin.site.register(Contact)
