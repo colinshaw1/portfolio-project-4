@@ -1,1 +1,1 @@
-web: gunicorn portfolio-project-4.wsgi
+web: gunicorn filmblog.wsgi:application
