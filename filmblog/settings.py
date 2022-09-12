@@ -35,7 +35,7 @@ DEBUG = development
 if development:
     ALLOWED_HOSTS = ['localhost']
 else:
-    ALLOWED_HOSTS = [os.environ.get('ckz8780-django-filmblog-app.herokuapp.com')]
+    ALLOWED_HOSTS = ['ckz8780-django-filmblog-app.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-mbfwj140yt0.ws-eu64.gitpod.io','https://ckz8780-django-filmblog-app.herokuapp.com' ]
 
