@@ -25,12 +25,12 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4ud-3+@@15%9jz#m+i_!f-)#^a%gk4do2c*d)%$bvvh=@1mx#$'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-4ud-3+@@15%9jz#m+i_!f-)#^a%gk4do2c*d)%$bvvh=@1mx#$')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ckz8780-django-filmblog-app.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-mbfwj140yt0.ws-eu64.gitpod.io' ]
 
@@ -89,7 +89,7 @@ DATABASES = {
 }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://mojzrhdvydvyyf:0c9caf820f9b5bdab7fccedd2ce624ec9b2cd35aab52b5ef6e2ddd943fcfac06@ec2-54-91-223-99.compute-1.amazonaws.com:5432/d7arafpi5a8lgd')
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 # Password validation
