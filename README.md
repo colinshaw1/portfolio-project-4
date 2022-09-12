@@ -42,11 +42,11 @@ User Experience
 
 Strategy Plane
 
-
+Filmblog was created to and designed for movie lovers to have a safe and secure environment to share there thoughts on film. Anyone can comment on a post and it will have to be approved by the moderator. Users have to be approved by admin before getting a log in. Once logged in they can post about any movie.  
 
 Scope Plane
 
-
+•	Created in Django
 
 
 Structure Plane
