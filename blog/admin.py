@@ -1,6 +1,6 @@
 from django.contrib import admin
 # import from models file for post method
-from .models import Post, Contact, Comment
+from .models import Post,  Comment
 
 
 # add class for making admin dashbord have filters, searchs and list fileds using djangos bnuilt in methods
@@ -29,12 +29,12 @@ class CommentAdmin(admin.ModelAdmin):
         queryset.update(active=True)
 
 
-@admin.register(Contact)
-class ContactAdmin(admin.ModelAdmin):
-    list_display = ('email', 'name')
+# @admin.register(Contact)
+# class ContactAdmin(admin.ModelAdmin):
+#     list_display = ('email', 'name')
 
-    def approve_email(self, request, queryset):
-        queryset.update(active=True)
+#     def approve_email(self, request, queryset):
+#         queryset.update(active=True)
 
 # Register your models here.
 admin.site.register(Post, PostAdmin)

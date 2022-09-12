@@ -1,8 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
-from .models import Post, Contact, Comment
+from .models import Post,  Comment
 from .forms import CommentForm
-import logging
 
 
 # return http response
@@ -18,24 +17,23 @@ class ListPost(generic.ListView):
     template_name = 'index.html'
 
 
-
 class DetailsPost(generic.DetailView):
     model = Post
     template_name = 'details_post.html'
 
-# function to render contact form
-def Contact(request):
-    if request.method == "POST":
-        name = request.POST.get('name')
-        email = request.POST.get('email')
-        contact.email = email
-        contact.save()
-        return HttpResponse("<h1>Thank you for contacting Film Blog</h1>")
+# # function to render contact form
+# def Contact(request):
+#     if request.method == "POST":
+#         name = request.POST.get('name')
+#         email = request.POST.get('email')
+#         contact.email = email
+#         contact.save()
+#         return HttpResponse("<h1>Thank you for contacting Film Blog</h1>")
 
-    return render(request, 'contact.html')
+#     return render(request, 'contact.html')
+
 
 def details_post(request, slug):
-    logging.error('here')
     template_name = 'details_post.html'
     post = get_object_or_404(Post, slug=slug)
     # comments = get_object_or_404(Comment, slug=slug)
@@ -43,7 +41,7 @@ def details_post(request, slug):
     new_comment = None
     # Comment posted
     if request.method == 'POST':
-        
+
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
 
@@ -60,3 +58,8 @@ def details_post(request, slug):
                                            'comments': comment,
                                            'new_comment': new_comment,
                                            'comment_form': comment_form})
+
+
+# class contact_post(generic.DetailView):
+#     template_name = 'about.html'
+#     model = CommentForm

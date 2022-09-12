@@ -1,4 +1,4 @@
-from .models import Comment, Contact
+from .models import Comment
 from django import forms
 
 #class to create a model to hanbdle form processing and validation
@@ -7,7 +7,7 @@ class CommentForm(forms.ModelForm):
         model = Comment
         fields = ('name', 'body')
 
-class ContactForm(forms.ModelForm):
-    class Meta:
-        model = Contact
-        fields = ('name', 'email')
+# class ContactForm(forms.ModelForm):
+#     class Meta:
+#         model = Contact
+#         fields = ('name', 'email')

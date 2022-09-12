@@ -10,12 +10,12 @@ STATUS = (
 )
 
 
-#create class for contact models 
-class Contact(models.Model):
-    name = models.CharField(max_length=200, unique=True, null=True)
-    email=models.EmailField()
-    def __str__(self):
-        return self.name
+# #create class for contact models 
+# class Contact(models.Model):
+#     name = models.CharField(max_length=200, unique=True, null=True)
+#     email=models.EmailField()
+#     def __str__(self):
+#         return self.name
 
 
 # class for posting data to databse with approriate information
