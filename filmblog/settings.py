@@ -34,7 +34,7 @@ DEBUG = development
 
 ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME', 'localhost')]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-mbfwj140yt0.ws-eu64.gitpod.io','HEROKU_HOSTNAME' ]
+CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-mbfwj140yt0.ws-eu64.gitpod.io','https://ckz8780-django-filmblog-app.herokuapp.com' ]
 
 # Application definition
 
