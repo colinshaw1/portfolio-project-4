@@ -23,9 +23,42 @@ Film blog is depolyed and you can see reviews and comments from other owners, if
 
 Screenshots of Application
 --
+Install of Django sucessful
+
+![image](https://user-images.githubusercontent.com/56481190/189747882-06e9b79a-4c1b-45ba-8f35-0bbbaf121cea.png)
 
 
+Admin Log in 
 
+![image](https://user-images.githubusercontent.com/56481190/189748251-fdb3dd39-710a-4ae1-9b82-81a163f4040e.png)
+
+CRSF verification would not work this was the most challanging part of the porject. I needed tutor support to help show me how to fix this. the issue was related to Django 4, been recently fully relaesed. I had to set a new variable in my settings.py file called CRSF_TRUSTED_ORIGINS, which is a list holding all the URLs of the site that are trusted and had to include my work space. It needed to contain HTTPS at the start to stop the error. The port number had to be included which was the what I was doing wrong I only had my workspaced entered.  
+
+![image](https://user-images.githubusercontent.com/56481190/189748440-30672517-407b-4879-b8f9-031eb702f059.png)
+
+Adding a post in admin page
+
+![image](https://user-images.githubusercontent.com/56481190/189750006-121d830a-a014-4a10-943f-3de5badc1e53.png)
+
+Post added and showing in list, where they can be searched for or filtered
+
+![image](https://user-images.githubusercontent.com/56481190/189750492-fbac3eb5-5d4e-47a8-9136-d726968b14ee.png)
+
+Field for leaving a comment
+
+![image](https://user-images.githubusercontent.com/56481190/189750566-d11aaa1c-3dbe-436c-ac9e-8529b14d1f5f.png)
+
+Comment notification for awaitng comfirmation
+
+![image](https://user-images.githubusercontent.com/56481190/189750647-2508b7d1-18da-452b-9426-720ee34554e2.png)
+
+Comments approved or awaitng approval
+
+![image](https://user-images.githubusercontent.com/56481190/189750776-0bc5f132-77b5-46c3-b3da-57fd8a61b0bc.png)
+
+Comment showing the number of comments and comment
+
+![image](https://user-images.githubusercontent.com/56481190/189750936-bef72ce4-cd0b-454d-90e7-0081ecba9289.png)
 
 Agile Methoglogy
 --
