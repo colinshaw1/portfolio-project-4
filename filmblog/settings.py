@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-4ud-3+@@15%9jz#m+i_!f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME', 'localhost', 'ckz8780-django-filmblog-app.herokuapp.com')]
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME', 'localhost')]
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-portfoliopro-mbfwj140yt0.ws-eu64.gitpod.io' ]
 
