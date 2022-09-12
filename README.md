@@ -88,6 +88,11 @@ Porject finsihed and ReadMe file
 
 ![image](https://user-images.githubusercontent.com/56481190/189649065-f65be60b-7abf-4101-a9fe-ec2bdfed3251.png)
 
+Home page deployed on heroku
+
+![image](https://user-images.githubusercontent.com/56481190/189751558-9d89fd09-3273-4318-a054-a3156b39fe6f.png)
+
+
 User Experience
 --
 
@@ -132,15 +137,10 @@ Resources
 Testing
 --
 
-
 Bugs
 
-Solved
-
-
-
-Remaining Bugs
-
+CRSF verification would not work this was the most challanging part of the porject. I needed tutor support to help show me how to fix this. the issue was related to Django 4, been recently fully relaesed. I had to set a new variable in my settings.py file called CRSF_TRUSTED_ORIGINS, which is a list holding all the URLs of the site that are trusted and had to include my work space. It needed to contain HTTPS at the start to stop the error. The port number had to be included which was the what I was doing wrong I only had my workspaced entered.
+Same issue occured for hosting in Heroku but was eaily fixed after thinking of how the problem above was solved.
 
 
 Version Control
