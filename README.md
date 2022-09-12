@@ -95,6 +95,15 @@ Home page deployed on heroku
 
 User Experience
 --
+Website users 
+
+• As a user, you want to be able to navigate clearly and hassle-free throughout the whole applications. 
+
+• As a user, you want to be able to scroll and read the content on the website with no contrast. 
+
+• As a user, you want to be able to click on any link on the website to go to the source destination with no errors. 
+
+• As a user, you want to be able to fill out a comment and submit with no issues.
 
 Strategy Plane
 
@@ -104,10 +113,18 @@ Scope Plane
 
 •	Created in Django
 
+• Home page has one clickable link for Film Blog logo
+
+• To open each article there is a Read More button which will open the whole article
+
+• At the bottom there is a button to leave a comment or view comments
+
 
 Structure Plane
 
+The application consits of two pages a base html file which has a nav bar and displays the atricles and some information to the right hand side of the application.
 
+The details_post page consists of the side bar for information and a full article with an option to leave a comment or view comments. The comments sections extends on the details_post page when clicked on. 
 
 
 Technologies used
@@ -127,15 +144,25 @@ Resources
 --
 
 •	Code institute for material and ideas
+
 •	Geeks for Geeks for information and ideas
+
 •	W3 Schools for information and ideas
+
 •	Slack for inspiration
+
 •	YouTube for tutorials
+
 •	My mentor Spencer Barbell was extremely helpful throughout the process
+
+• Tutor support 
+
+• Forms on Django blog posts
 
 
 Testing
 --
+Tested on desktop. Checked in Google chrome, firefox and safari.
 
 Bugs
 
@@ -148,6 +175,8 @@ Version Control
 
 GitHub and GitPod to update and commit changed to my repository all commits tracked to mark progress
 
+
 Deployment
 --
 
+Deployed through Heroku.
