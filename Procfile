@@ -1,1 +1,3 @@
-web: gunicorn blog.wgsi:application
+web: gunicorn blog.wgsi:application --log-file - --log-level debug
+heroku ps:scale web=1
+python manage.py migrate
