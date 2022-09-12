@@ -1,1 +1,1 @@
-web: gunicorn PORTFOLIO-PROJECT-4.wgsi:application
+web: gunicorn blog.wgsi:application
