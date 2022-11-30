@@ -30,8 +30,7 @@ class Post(models.Model):
     # results are sorted in order of created on from meta class
     created_on = models.DateTimeField(auto_now_add=True, null=True)
     status = models.IntegerField(choices=STATUS, default=0)
-
-
+    likes = models.ManyToManyField(User, related_name='blog_likes')
 
     # meta class to order and sort results in order of created 
     # on so most recent posts show first
@@ -41,18 +40,22 @@ class Post(models.Model):
     # string class to read title representation in adminsitration site
     def __str__(self):
         return self.film_title
+    
+    # return number of likes on post
+    def number_of_likes(self):
+        return self.likes
 
 #class for commetns model to post with correct infromation
 class Comment(models.Model):
     post = models.ForeignKey(Post,on_delete=models.CASCADE,related_name='comments')
     name = models.CharField(max_length=80)
-    email = models.CharField(max_length=80)
+    email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    active = models.BooleanField(default=False)
+    approved = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['created_on']
 
     def __str__(self):
-        return 'Comment {} by {}'.format(self.body, self.name)
+        return f"Comment {self.body} by {self.name}"
