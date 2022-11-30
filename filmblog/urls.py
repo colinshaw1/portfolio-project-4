@@ -18,6 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # summernotes url
+    path('summernote/', include('django_summernote.urls') ),
     # allows requests be handles by the filmblog app
     path('', include('blog.urls')),
 ]
