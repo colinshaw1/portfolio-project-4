@@ -1,21 +1,5 @@
 {% extends "base.html" %}
 {% block content %}
-<style>
-    body {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        background-color: #fdfdfd;
-    }
-
-    .head_text {
-        color: white;
-    }
-
-    .card {
-        box-shadow: 0 16px 48px #A9A9A9;
-    }
-</style>
-
 <header class="masthead">
     <div class="overlay"></div>
     <div class="container">
@@ -38,12 +22,27 @@
             <div class="card mb-4">
                 <div class="card-body">
                     <h2 class="card-title">{{ post.film_title }}</h2>
-                    <p class="card-text text-muted h6">{{ post.blogger }} | {{ post.created_on}} </p>
+                    <p class="card-text text-muted h6">{{ post.blogger }} | {{ post.created_on}} <i
+                            class="far fa-heart"></i>
+                        {{ post.number_of_likes }}</p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'details_post' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
                 </div>
             </div>
             {% endfor %}
+            {% if is_paginated %}
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    {% if page_obj.has_previous %}
+                    <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+                    {% endif %}
+                    {% if page_obj.has_next %}
+                    <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+
+                    {% endif %}
+                </ul>
+            </nav>
+            {% endif %}
         </div>
         {% block about %} {% include 'about.html' %} {% endblock about %}
     </div>
