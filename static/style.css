@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-color: #808080;
+}
+
+.shadow {
+    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #3398E1;
+    border-color: #3398E1;
+}
+
+.masthead {
+    background: #EADDCA;
+    height: auto;
+    padding-bottom: 15px;
+    box-shadow: 0 16px 48px #E3E7EB;
+    padding-top: 10px;
+}
