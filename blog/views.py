@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.views import generic
+from django.views import generic, View
 from .models import Post,  Comment
 from .forms import CommentForm
 # return http response
@@ -18,21 +18,27 @@ class ListPost(generic.ListView):
     paginate_by = 6
 
 
-# class DetailsPost(generic.DetailView):
-    
-#     template_name = 'details_post.html'
+class PostDetail(View):
 
-# # function to render contact form
-# def Contact(request):
-#     if request.method == "POST":
-#         name = request.POST.get('name')
-#         email = request.POST.get('email')
-#         contact.email = email
-#         contact.save()
-#         return HttpResponse("<h1>Thank you for contacting Film Blog</h1>")
+    def get(self, request, slug, *args, **kwargs):
+        queryset = Post.objects.filter(status=1)
+        post = get_object_or_404(queryset, slug=slug)
+        # gets the comments attached to a post
+        comments = post.comments.filter(approved=True).order_by("-created_on")
+        liked = False
+        # check if liked post by user id
+        if post.likes.filter(id=self.request.user.id).exists():
+            liked = True
 
-#     return render(request, 'contact.html')
-
+        return render(
+            request,
+            "details_post.html",
+            {
+                "post": post,
+                "comments": comments,
+                "liked": liked
+            },
+        )
 
 # def details_post(request, slug):
 #     template_name = 'details_post.html'
