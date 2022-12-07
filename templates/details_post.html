@@ -28,6 +28,7 @@
 
                     <div class="col-1">
                         <strong>
+                            <!-- taken from course content -->
                             {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
