@@ -31,7 +31,7 @@
             </div>
             {% endfor %}
         </div>
-        
+        {% block about %} {% include 'about.html' %} {% endblock about %}
     </div>
     <!-- taken from course content -->
     {% if is_paginated %}
@@ -46,7 +46,8 @@
             {% endif %}
         </ul>
     </nav>
-    {% block about %} {% include 'about.html' %} {% endblock about %}
     {% endif %}
+   
+    
 </div>
 {% endblock %}
