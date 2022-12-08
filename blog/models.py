@@ -30,7 +30,7 @@ class Post(models.Model):
     # results are sorted in order of created on from meta class
     created_on = models.DateTimeField(auto_now_add=True, null=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    likes = models.ManyToManyField(User, related_name='blog_likes_likes')
+    likes = models.ManyToManyField(User, related_name='blog_post_likes')
 
     # meta class to order and sort results in order of created 
     # on so most recent posts show first
