@@ -21,37 +21,36 @@ The owner of this game is Colin Shaw. The goal is to help film lovers express th
 How to use
 --
 
-The film blog is deployed and you can see reviews and comments from other owners if a user wants to leave a review they have to supply their email and discuss with Admin if they can get a log in to share views. Anyone can leave a comment but it has to be approved by Admin before it is published. 
+The film blog is deployed and you can see reviews, likes and comments from other owners if a user wants to leave a comment or like they can register for an account and easily log in. Anyone can leave a comment but it has to be approved by Admin before it is published. 
 
 Screenshots of Application
 --
 Successful  Install of Django 
+--
 
 ![image](https://user-images.githubusercontent.com/56481190/189747882-06e9b79a-4c1b-45ba-8f35-0bbbaf121cea.png)
 
-
+--
 Admin Log in 
-
+----
 ![image](https://user-images.githubusercontent.com/56481190/189748251-fdb3dd39-710a-4ae1-9b82-81a163f4040e.png)
-
+----
 CRSF verification would not work this was the most challenging part of the project. I needed tutor support to help show me how to fix this. the issue was related to Django 4, been recently fully released. I had to set a new variable in my settings.py file called CRSF_TRUSTED_ORIGINS, which is a list holding all the URLs of the site that are trusted and had to include my workspace. It needed to contain HTTPS at the start to stop the error. The port number had to be included which was what I was doing wrong I only had my workspace entered.  
 
+---
 ![image](https://user-images.githubusercontent.com/56481190/189748440-30672517-407b-4879-b8f9-031eb702f059.png)
-
+----
 Adding a post on admin page
-
+-----
 ![image](https://user-images.githubusercontent.com/56481190/189750006-121d830a-a014-4a10-943f-3de5badc1e53.png)
-
+--
 Post added and shown in the list, where they can be searched for or filtered
 
 ![image](https://user-images.githubusercontent.com/56481190/189750492-fbac3eb5-5d4e-47a8-9136-d726968b14ee.png)
 
-
-
-
 Home page deployed on Heroku
 
-![image](https://user-images.githubusercontent.com/56481190/189751558-9d89fd09-3273-4318-a054-a3156b39fe6f.png)
+![image](https://user-images.githubusercontent.com/56481190/206549363-4dbca0d1-e537-4768-bde0-6e5e1c888b20.png)
 
 logged in home screen
 
@@ -68,7 +67,6 @@ Comment awaiting approval
 Comment approved
 
 ![image](https://user-images.githubusercontent.com/56481190/206544744-27ce498d-4e68-4d01-9c8d-abc8e2bf44bb.png)
-
 
 Liked a post
 
