@@ -46,21 +46,6 @@ Post added and shown in the list, where they can be searched for or filtered
 
 ![image](https://user-images.githubusercontent.com/56481190/189750492-fbac3eb5-5d4e-47a8-9136-d726968b14ee.png)
 
-The field for leaving a comment
-
-![image](https://user-images.githubusercontent.com/56481190/189750566-d11aaa1c-3dbe-436c-ac9e-8529b14d1f5f.png)
-
-Comment notification for awaiting confirmation
-
-![image](https://user-images.githubusercontent.com/56481190/189750647-2508b7d1-18da-452b-9426-720ee34554e2.png)
-
-Comments approved or awaiting approval
-
-![image](https://user-images.githubusercontent.com/56481190/189750776-0bc5f132-77b5-46c3-b3da-57fd8a61b0bc.png)
-
-Comment showing the number of comments and comment
-
-![image](https://user-images.githubusercontent.com/56481190/189750936-bef72ce4-cd0b-454d-90e7-0081ecba9289.png)
 
 
 Agile Methodology
@@ -95,6 +80,35 @@ Project finished and ReadMe file
 Home page deployed on Heroku
 
 ![image](https://user-images.githubusercontent.com/56481190/189751558-9d89fd09-3273-4318-a054-a3156b39fe6f.png)
+
+logged in home screen
+
+![image](https://user-images.githubusercontent.com/56481190/206542175-2f437c60-0a13-4374-a119-cb7f4760ae1b.png)
+
+Leaving a comment
+
+![image](https://user-images.githubusercontent.com/56481190/206542273-f0247098-b7d0-4f24-8707-0446a9723503.png)
+
+Comment awaiting approval
+
+![image](https://user-images.githubusercontent.com/56481190/206542363-8bc5629c-045a-4b30-aeb7-36d110507dbe.png)
+
+Comment approved
+
+![image](https://user-images.githubusercontent.com/56481190/206544744-27ce498d-4e68-4d01-9c8d-abc8e2bf44bb.png)
+
+
+Liked a post
+
+![image](https://user-images.githubusercontent.com/56481190/206542440-c3e176e3-0600-481d-806d-7ad66aa8b030.png)
+
+Logout
+
+![image](https://user-images.githubusercontent.com/56481190/206544834-7ae0be5d-9202-4d60-b099-7a7ec7968614.png)
+
+Register
+
+![image](https://user-images.githubusercontent.com/56481190/206544877-d6dbaf40-2a55-4324-b1d4-78461358f1f9.png)
 
 
 User Experience
