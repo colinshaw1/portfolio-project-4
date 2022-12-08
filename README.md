@@ -87,22 +87,27 @@ Agile Methodology
 For project management of Film, Blog Trello was used to track the Agile Methodology. 
 ---
 Start of planning Trello board
+Planning under way decideing tasks that are most important and how plan and design the porject
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648539-795b182d-fcb7-4ff9-bdb3-52069e507e2b.png)
 ---
 Progress is underway and projects planning and wireframes are under consideration
+Prject planning starts with drawing up wireframes of how the application will look, looking at other blogs and seen the most user friendly methods are to help with ideas.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
 ---
-Planning stage over and development starting and error fixing as progressing through the plan
+Planning stage over and development starting and error fixing as progressing through the plan.
+Devlopment starts and the app is under construction in gitpod. App are built using django and models, views and templates are been used. Porject plans and wireframes are finihsed.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648851-4c94921a-c1bd-402e-9033-56d914cc880c.png)
 ---
-As development is progressing testing starts to be a factor and the app gets tested
+As development is progressing testing starts to be a factor and the app gets tested.
+Development is progressing so it is time to see how templates are reacting and rendering results to the database. ReadMe file is started. 
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648905-8ba1cb00-b805-433a-a5f9-885f08cc66c7.png)
 --
-Development finishing up and the ReadMe file starting to get worked on
+Development finishing up and the ReadMe file starting to get worked on.
+App is devloped and deployed and now the final touches are added. The ReadMe file is getting updated with progress.
 --
 ![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
 --
@@ -110,6 +115,8 @@ Project finished and ReadMe file
 --
 ![image](https://user-images.githubusercontent.com/56481190/189649065-f65be60b-7abf-4101-a9fe-ec2bdfed3251.png)
 ---
+
+
 User Stories
 ---
 ![image](https://user-images.githubusercontent.com/56481190/206549991-714eefbd-5898-4898-8670-222a7753f3b6.png)
