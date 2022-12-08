@@ -86,18 +86,18 @@ Agile Methodology
 ---
 For project management of Film, Blog Trello was used to track the Agile Methodology. 
 ---
-Start of planning Trello board
-Planning under way decideing tasks that are most important and how plan and design the porject
+Start planning the Trello board
+Planning underway deciding tasks that are most important and how to plan and design the project
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648539-795b182d-fcb7-4ff9-bdb3-52069e507e2b.png)
 ---
 Progress is underway and projects planning and wireframes are under consideration
-Prject planning starts with drawing up wireframes of how the application will look, looking at other blogs and seen the most user friendly methods are to help with ideas.
+Project planning starts with drawing up wireframes of how the application will look, looking at other blogs and seeing the most user-friendly methods to help with ideas.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
 ---
-Planning stage over and development starting and error fixing as progressing through the plan.
-Devlopment starts and the app is under construction in gitpod. App are built using django and models, views and templates are been used. Porject plans and wireframes are finihsed.
+The planning stage is over and development starts and error fixing as progress through the plan.
+Development started and the app is under construction in gitpod. App is built using Django and models, views and templates are been used. Project plans and wireframes are finished.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648851-4c94921a-c1bd-402e-9033-56d914cc880c.png)
 ---
@@ -107,7 +107,7 @@ Development is progressing so it is time to see how templates are reacting and r
 ![image](https://user-images.githubusercontent.com/56481190/189648905-8ba1cb00-b805-433a-a5f9-885f08cc66c7.png)
 --
 Development finishing up and the ReadMe file starting to get worked on.
-App is devloped and deployed and now the final touches are added. The ReadMe file is getting updated with progress.
+App is developed and deployed and now the final touches are added. The ReadMe file is getting updated with progress.
 --
 ![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
 --
@@ -125,6 +125,7 @@ User Stories
 User Experience
 --
 Website users 
+--
 
 • As a user, you want to be able to navigate clearly and hassle-free throughout the whole application. 
 
@@ -132,17 +133,24 @@ Website users
 
 • As a user, you want to be able to click on any link on the website to go to the source destination with no errors. 
 
-•  As a user, you want to be able to fill out a comment and submit it with no issues.
+• As a user, you want to be able to fill out a comment and submit it with no issues.
+
+• As a user you want to be able to register, login and logout.
+
+• As a user you want to be able to like and comment on a post.
 
 Strategy Plane
-
-Filmblog was created and designed for movie lovers to have a safe and secure environment to share their thoughts on the film. Anyone can comment on a post and it will have to be approved by the moderator. Users have to be approved by the admin before getting a login. Once logged in they can post about any movie.  
+---
+Filmblog was created and designed for movie lovers to have a safe and secure environment to share their thoughts on the film. Anyone can comment or like on a blog post. Users must be registered to leave a comment or like a post. Comments have to be approved by admin. 
 
 Scope Plane
+--
 
 •	Created in Django
 
-• Home page has one clickable link for Film Blog logo
+• Home page has clickable links for Film Blog logo, Register and Login or Logout once logged in
+
+• Like button for liking posts.
 
 • To open each article there is a Read More button which will open the whole article
 
@@ -150,10 +158,12 @@ Scope Plane
 
 
 Structure Plane
-
+--
 • The application consists of two pages a base HTML file which has a nav bar and displays the articles and some information on the right-hand side of the application.
 
 • The details_post page consists of a sidebar for information and a full article with an option to leave a comment or view comments. The comments section extends on the details_post page when clicked on. 
+
+• A register, login and logout page are available for users thanks to Django and Allauths powerful built in tools.
 
 
 Technologies used
@@ -187,6 +197,8 @@ Resources
 • Tutor support 
 
 • Forms on Django blog posts
+
+• Course content for some functionality
 
 
 Testing
