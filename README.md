@@ -48,34 +48,6 @@ Post added and shown in the list, where they can be searched for or filtered
 
 
 
-Agile Methodology
---
-
-For project management of Film, Blog Trello was used to track the Agile Methodology. 
-
-Start of planning Trello board
-
-![image](https://user-images.githubusercontent.com/56481190/189648539-795b182d-fcb7-4ff9-bdb3-52069e507e2b.png)
-
-Progress is underway and projects planning and wireframes are under consideration
-
-![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
-
-Planning stage over and development starting and error fixing as progressing through the plan
-
-![image](https://user-images.githubusercontent.com/56481190/189648851-4c94921a-c1bd-402e-9033-56d914cc880c.png)
-
-As development is progressing testing starts to be a factor and the app gets tested
-
-![image](https://user-images.githubusercontent.com/56481190/189648905-8ba1cb00-b805-433a-a5f9-885f08cc66c7.png)
-
-Development finishing up and the ReadMe file starting to get worked on
-
-![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
-
-Project finished and ReadMe file
-
-![image](https://user-images.githubusercontent.com/56481190/189649065-f65be60b-7abf-4101-a9fe-ec2bdfed3251.png)
 
 Home page deployed on Heroku
 
@@ -109,6 +81,36 @@ Logout
 Register
 
 ![image](https://user-images.githubusercontent.com/56481190/206544877-d6dbaf40-2a55-4324-b1d4-78461358f1f9.png)
+
+
+Agile Methodology
+--
+
+For project management of Film, Blog Trello was used to track the Agile Methodology. 
+
+Start of planning Trello board
+
+![image](https://user-images.githubusercontent.com/56481190/189648539-795b182d-fcb7-4ff9-bdb3-52069e507e2b.png)
+
+Progress is underway and projects planning and wireframes are under consideration
+
+![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
+
+Planning stage over and development starting and error fixing as progressing through the plan
+
+![image](https://user-images.githubusercontent.com/56481190/189648851-4c94921a-c1bd-402e-9033-56d914cc880c.png)
+
+As development is progressing testing starts to be a factor and the app gets tested
+
+![image](https://user-images.githubusercontent.com/56481190/189648905-8ba1cb00-b805-433a-a5f9-885f08cc66c7.png)
+
+Development finishing up and the ReadMe file starting to get worked on
+
+![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
+
+Project finished and ReadMe file
+
+![image](https://user-images.githubusercontent.com/56481190/189649065-f65be60b-7abf-4101-a9fe-ec2bdfed3251.png)
 
 
 User Experience
