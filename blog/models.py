@@ -43,7 +43,7 @@ class Post(models.Model):
     
     # return number of likes on post
     def number_of_likes(self):
-        return self.likes
+        return self.likes.count()
 
 #class for commetns model to post with correct infromation
 class Comment(models.Model):
