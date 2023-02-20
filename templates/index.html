@@ -21,7 +21,7 @@
             {% for post in post_list %}
             <div class="card mb-4">
                 <div class="card-body">
-                    <h2 class="card-title">{{ post.film_title }}</h2>
+                    <h2 class="card-header text-white bg-dark mb-3">{{ post.film_title }}</h2>
                     <p class="card-text text-muted h6">{{ post.blogger }} | {{ post.created_on}} <i
                             class="far fa-heart"></i>
                         {{ post.number_of_likes }}</p>
