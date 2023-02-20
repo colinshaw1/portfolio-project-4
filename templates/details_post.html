@@ -17,15 +17,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 card mb-4 mt-3 left top">
-            <div class="card-body text-white bg-dark mb-3">
+        <div class="col card mb-4  mt-3 left  top">
+            <div class="card-body  bg-dark mb-3">
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
-                <p class="card-text ">
+                <p class="card-text text-white">
                     {{ post.content | safe }}
                 </p>
-
-            </div>
                 <div class="row">
 
                     <div class="col-1">
@@ -64,7 +62,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 card mb-4 mt-3">
+        <div class="col-md-8 card mb-4  mt-3 ">
             <h3>Comments:</h3>
             <div class="card-body text-white bg-dark mb-3">
                 <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
