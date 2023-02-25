@@ -14,10 +14,10 @@ class PostForm(forms.ModelForm):
         fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
         # creates a dictonary for the form using bootstrap form control
         widget = {
-            'film_title': form.TextInput(attrs={'class': 'form-control'})
-            'blogger': form.Select(attrs={'class': 'form-control'})
-            'slug': form.TextInput(attrs={'class': 'form-control'})
-            'director': form.TextInput(attrs={'class': 'form-control'})
-            'actor': form.TextInput(attrs={'class': 'form-control'})
-            'content': form.TextArea(attrs={'class': 'form-control'})
+            'film_title': form.TextInput(attrs={'class': 'form-control'}),
+            'blogger': form.Select(attrs={'class': 'form-control'}),
+            'slug': form.TextInput(attrs={'class': 'form-control'}),
+            'director': form.TextInput(attrs={'class': 'form-control'}),
+            'actor': form.TextInput(attrs={'class': 'form-control'}),
+            'content': form.TextArea(attrs={'class': 'form-control'}),
         }
