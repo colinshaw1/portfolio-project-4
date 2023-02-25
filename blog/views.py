@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import View, generic
 from .models import Post, Comment
-from .forms import CommentForm
+from .forms import CommentForm, PostForm
 # return http response
 from django.http import HttpResponseRedirect
 
@@ -89,6 +89,8 @@ class PostLike(View):
 # Add view for posting a film review
 class AddPostView(generic.CreateView):
     model = Post
+    form_class = PostForm
     template_name = "add_post.html"
+    # lines belwo commented cause using form
     # allows all fields to be shown on page
-    fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
+    # fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
