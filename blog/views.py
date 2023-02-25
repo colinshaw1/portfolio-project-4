@@ -94,3 +94,9 @@ class AddPostView(generic.CreateView):
     # lines below commented cause using form
     # allows all fields to be shown on page
     # fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
+
+# Add view for editing a film review
+class EditPost(generic.UpdateView):
+    model = Post
+    template_name = 'edit_post.html'
+    fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
