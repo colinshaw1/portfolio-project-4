@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views.generic import View, CreateView
+from django.views.generic import View, CreateView, generic
 from .models import Post,  Comment
 from .forms import CommentForm
 # return http response
