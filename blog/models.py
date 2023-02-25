@@ -44,7 +44,7 @@ class Post(models.Model):
 
     # get url to post the blog post to details post page
     def get_absolute_url(self):
-        return reverse("details_post", args=(str(self.id)))
+        return reverse("home")
     
     # return number of likes on post
     def number_of_likes(self):
