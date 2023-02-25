@@ -87,7 +87,7 @@ class PostLike(View):
 
 
 # Add view for posting a film review
-class AddPostView(CreateView):
+class AddPostView(generic.CreateView):
     model = Post
     template_name = "add.post.html"
     # allows all fields to be shown on page
