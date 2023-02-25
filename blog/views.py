@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
+from django.views import generic, View, CreateView
 from .models import Post,  Comment
 from .forms import CommentForm
 # return http response
@@ -84,3 +84,12 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('details_post', args=[slug]))
+
+
+# Add view for posting a film review
+class AddPostView(CreateView):
+    model = Post
+    template_name = "add.post.html"
+    # allows all fields to be shown on page
+    fields = "__all__"
+    
