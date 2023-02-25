@@ -4,11 +4,11 @@ from django.urls import reverse
 
 # Create your models here.
 
-# # declaring tuples to be able to post drafts and publish posts
-# STATUS = (
-#     (0, "Draft"),
-#     (1, "Publish")
-# )
+# declaring tuples to be able to post drafts and publish posts
+STATUS = (
+    (0, "Draft"),
+    (1, "Publish")
+)
 
 
 # #create class for contact models 
@@ -30,7 +30,7 @@ class Post(models.Model):
     content = models.TextField()
     # results are sorted in order of created on from meta class
     created_on = models.DateTimeField(auto_now_add=True, null=True)
-    # status = models.IntegerField(choices=STATUS, default=0)
+    status = models.IntegerField(choices=STATUS, default=1)
     likes = models.ManyToManyField(User, related_name='blog_post_likes')
 
     # meta class to order and sort results in order of created 
