@@ -91,4 +91,4 @@ class AddPostView(generic.CreateView):
     model = Post
     template_name = "add_post.html"
     # allows all fields to be shown on page
-    fields = "__all__"
+    fields = ('film_title', 'director', 'actor', 'content')
