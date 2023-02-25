@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 # Create your models here.
 
@@ -40,6 +41,10 @@ class Post(models.Model):
     # string class to read title representation in adminsitration site
     def __str__(self):
         return self.film_title
+
+    # get url to post the blog post to details post page
+    def get_absolute_url(self):
+        return reverse("details_post", args=(str(self.id)))
     
     # return number of likes on post
     def number_of_likes(self):
