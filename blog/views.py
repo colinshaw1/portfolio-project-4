@@ -98,5 +98,7 @@ class AddPostView(generic.CreateView):
 # Add view for editing a film review
 class EditPost(generic.UpdateView):
     model = Post
+    form_class = PostForm
     template_name = 'edit_post.html'
-    fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
+    # lines below commented cause using form
+    # fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
