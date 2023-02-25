@@ -91,6 +91,6 @@ class AddPostView(generic.CreateView):
     model = Post
     form_class = PostForm
     template_name = "add_post.html"
-    # lines belwo commented cause using form
+    # lines below commented cause using form
     # allows all fields to be shown on page
     # fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
