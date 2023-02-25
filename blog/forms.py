@@ -19,5 +19,5 @@ class PostForm(forms.ModelForm):
             'slug': forms.TextInput(attrs={'class': 'form-control'}),
             'director': forms.TextInput(attrs={'class': 'form-control'}),
             'actor': forms.TextInput(attrs={'class': 'form-control'}),
-            'content': forms.TextArea(attrs={'class': 'form-control'})
+            'content': forms.Textarea(attrs={'class': 'form-control'})
         }
