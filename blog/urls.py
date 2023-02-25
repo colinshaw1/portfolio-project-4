@@ -8,4 +8,5 @@ urlpatterns = [
     # <slug> in the brackets captures the values from the url and returns the post details
     path('<slug:slug>/', views.PostDetail.as_view(), name='details_post'),
     path('likes/<slug:slug>', views.PostLike.as_view(), name="post_like")
+    path('add_post/', AddPostView.as_view(), name = "add_post")
 ]
