@@ -4,10 +4,10 @@
 
 <!-- creationg a form with a post method -->
 <form method="POST">
-    {% crsf_token %}
+    {% csrf_token %}
     <!-- using djangos built in form builder -->
     {{ form.as_p }}
     <button>POST</button>
-    {% endif %}
 
-{% endblock content %}
+
+{% endblock %}
