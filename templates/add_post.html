@@ -5,7 +5,6 @@
 <!-- creationg a form with a post method -->
 <div class="form-group">
     <form method="POST">
-        <!-- {{ PostForm | crispy }} -->
         {% csrf_token %}
         <!-- using djangos built in form builder -->
         {{ form.as_p }}
