@@ -102,3 +102,8 @@ class EditPost(generic.UpdateView):
     template_name = 'edit_post.html'
     # lines below commented cause using form
     # fields = ('film_title','blogger', 'slug', 'director', 'actor', 'content')
+
+# add view to delete posts
+class DeletePost(generic.DeleteView):
+    model = Post
+    template_name = 'delete.html'
