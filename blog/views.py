@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View, CreateView
+from django.views.generic import View, CreateView
 from .models import Post,  Comment
 from .forms import CommentForm
 # return http response
@@ -92,4 +92,3 @@ class AddPostView(CreateView):
     template_name = "add.post.html"
     # allows all fields to be shown on page
     fields = "__all__"
-    
