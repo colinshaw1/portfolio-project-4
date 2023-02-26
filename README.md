@@ -52,9 +52,18 @@ Home page deployed on Heroku
 --
 ![image](https://user-images.githubusercontent.com/56481190/221403634-ccce31a9-550f-4eba-9f4a-076bed3cf182.png)
 --
+Home screen 
+--
+![image](https://user-images.githubusercontent.com/56481190/221404446-62d47942-ea69-4c48-9176-55b528f260ce.png)
+
+--
 logged in home screen
 --
-![image](https://user-images.githubusercontent.com/56481190/221403652-2551cccf-232f-41b5-a82f-3c854ff84c39.png)
+![image](https://user-images.githubusercontent.com/56481190/221404426-a8b25d39-5724-4793-a5b9-8692985dbdb7.png)
+--
+Leave a review
+--
+![image](https://user-images.githubusercontent.com/56481190/221404471-34f43fa7-a920-4ede-9fdf-43e75424c035.png)
 --
 Editing a post
 --
@@ -79,21 +88,30 @@ Comment awaiting approval
 Comment approved
 ---
 
-![image](https://user-images.githubusercontent.com/56481190/206544744-27ce498d-4e68-4d01-9c8d-abc8e2bf44bb.png)
+![image](https://user-images.githubusercontent.com/56481190/221404299-4061f65c-7df6-44b8-8c8a-21256bb7d33a.png)
 
+--
 Liked a post
-
-![image](https://user-images.githubusercontent.com/56481190/206542440-c3e176e3-0600-481d-806d-7ad66aa8b030.png)
-
+--
+![image](https://user-images.githubusercontent.com/56481190/221404305-4b357016-fd8d-430d-b8b1-c749d56d0896.png)
+--
 Logout
+--
+![image](https://user-images.githubusercontent.com/56481190/221404335-1713aa16-de9a-4dad-9f5c-48c98e61fb43.png)
 
-![image](https://user-images.githubusercontent.com/56481190/206544834-7ae0be5d-9202-4d60-b099-7a7ec7968614.png)
+--
+Sign In
+--
 
+![image](https://user-images.githubusercontent.com/56481190/221404366-1f0bc86d-bf25-4ad4-ba48-bfd92b03e8f7.png)
+
+--
 Register
+--
+![image](https://user-images.githubusercontent.com/56481190/221404403-7da8330b-bf15-47dd-a7d3-6cd4615077e8.png)
 
-![image](https://user-images.githubusercontent.com/56481190/206544877-d6dbaf40-2a55-4324-b1d4-78461358f1f9.png)
 
-
+--
 Agile Methodology
 --
 ---
