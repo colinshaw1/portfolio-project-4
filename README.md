@@ -135,31 +135,57 @@ For project management of Film, Blog Trello was used to track the Agile Methodol
 Start planning the Trello board
 Planning underway deciding tasks that are most important and how to plan and design the project
 ---
-![image](https://user-images.githubusercontent.com/56481190/189648539-795b182d-fcb7-4ff9-bdb3-52069e507e2b.png)
+![image](https://user-images.githubusercontent.com/56481190/221417240-6e827d20-27b3-4584-9014-76b02a92babb.png)
 ---
 Progress is underway and projects planning and wireframes are under consideration
 Project planning starts with drawing up wireframes of how the application will look, looking at other blogs and seeing the most user-friendly methods to help with ideas.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
 ---
+Design Phase under way
+--
+
+![image](https://user-images.githubusercontent.com/56481190/221417318-c89a463b-75e0-4b19-bfc4-082ebb87816f.png)
+
+Design pahse completed
+--
+![image](https://user-images.githubusercontent.com/56481190/221417405-78f51b15-1021-45d5-a170-68224fdcdfb3.png)
+
+
+
 The planning stage is over and development starts and error fixing as progress through the plan.
 Development started and the app is under construction in gitpod. App is built using Django and models, views and templates are been used. Project plans and wireframes are finished.
 ---
-![image](https://user-images.githubusercontent.com/56481190/189648851-4c94921a-c1bd-402e-9033-56d914cc880c.png)
+![image](https://user-images.githubusercontent.com/56481190/221417454-13cc42e8-6f77-4392-8e85-05b9dde8bd16.png)
+
+
+![image](https://user-images.githubusercontent.com/56481190/221417525-c388a71e-503b-4d18-9a85-dcd89a5ad486.png)
+
+![image](https://user-images.githubusercontent.com/56481190/221417596-df56a77a-477b-4074-994f-464412ab6b03.png)
+
 ---
 As development is progressing testing starts to be a factor and the app gets tested.
 Development is progressing so it is time to see how templates are reacting and rendering results to the database. ReadMe file is started. 
 ---
-![image](https://user-images.githubusercontent.com/56481190/189648905-8ba1cb00-b805-433a-a5f9-885f08cc66c7.png)
+![image](https://user-images.githubusercontent.com/56481190/221417655-4939ce46-9387-45b1-9c8a-6ca859c62f5a.png)
+
+
 --
 Development finishing up and the ReadMe file starting to get worked on.
 App is developed and deployed and now the final touches are added. The ReadMe file is getting updated with progress.
 --
 ![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
+
+![image](https://user-images.githubusercontent.com/56481190/221417676-f20d34fc-1e22-43e3-b8ce-2769bd16cbb7.png)
+
+![image](https://user-images.githubusercontent.com/56481190/221417767-ff76654c-bb70-45c8-bc42-05639a7af53b.png)
+
+![image](https://user-images.githubusercontent.com/56481190/221417792-c06b4628-e0a7-4568-828a-a97be92ec1ab.png)
+
 --
 Project finished and ReadMe file
 --
-![image](https://user-images.githubusercontent.com/56481190/189649065-f65be60b-7abf-4101-a9fe-ec2bdfed3251.png)
+![image](https://user-images.githubusercontent.com/56481190/221417829-16b407b7-1458-42e6-b7c8-644afd133135.png)
 ---
 
 
