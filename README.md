@@ -270,7 +270,62 @@ Resources
 
 Testing
 --
-Tested on desktop. Checked in Google chrome, firefox and safari.
+All user stories below are evident in screenshots in the above screenshot section. 
+First Time User
+----
+
+a. As a user visiting the site for the first time you want to be able to understand the main objective of the application.
+
+• This is achieved and a user can easily find the way through the application. Users can use clickable buttons to register, login or read more to view a a blog post.
+
+b. As a user visiting the site for the first time you want to easily navigate the blog.
+
+• Users will navigate through eaisly to be able to register, login or read a blog post.
+
+c. As a user visiting the site for the first time you want to be able to set up a profile.
+
+• A user can register for a profile easily through the resister button.
+
+d. A user can register for a profile.
+
+• When register button is clicked the user will be brought to the resgisteration form. The user can enter their detials and will be redirected the loffed in screen once they hit sign up. 
+
+
+Frequent User
+----------
+a. As a returning user you want to be able to log in to your profile.
+
+• A returning user can log in easily if they have a profile set up.
+
+b. As a returning user you want to be able to logout once already logged in.
+
+• A returning user clicks the logout button they will be logged out to the homescreen.
+
+c. A returning user is able to add a review.
+
+• As a returning user once the add review button is clickd the user will be brought to the add review form. Here the user will enter the details of the film like the title, tags, director, actors and content about the film. Once the post button is clicked the user can post will be published to the application.
+
+d. As a retruing user you want to be able to scroll the homeoage and click a review to read. 
+
+• Once a returning user clicks the read more button, they will be brougth to the blog details page with the full review. 
+
+e. As a returning user you want to be able to edit a review. 
+
+• As a retruing user you can edit a review by clicking the edit button on the homepage and in the blog detials page. When in the edit form the user can edit there review detials and once finsihied clik the post button which will redirect them to the home page. 
+
+f. As a returning user you want to be able to delete a preivious review. 
+
+• As a returning user you are able to delete a review by clicking the yellow delete buttton. Once clicked the user will be brought to the delete psot bag. Here the user will see the title of the review to delete and a short message asking if they are sure they want to delete the review. Once the delete post button the review is deleted and the user is redirected to the homepage. 
+
+g. A returing user you want to leave a comment. 
+
+• As a returning user you can leave a comment in the details page. Beside the previous comments card there is an add comment section. A user can write there review and click submit. Once submit is clicked a messsage will appear for the comment to be approved. Comments need to be approved incase of any unwated comments. 
+
+
+Testing deployed code
+--
+
+Tested on desktop thorughout development. Checked in Google chrome thoughout devlopment. Checked on my mobile device a S22, my dads ipad and my work laptop. 
 
 Bugs
 
