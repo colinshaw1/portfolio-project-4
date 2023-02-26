@@ -291,4 +291,4 @@ GitHub and GitPod to update and commit changed to my repository all commits trac
 Deployment
 --
 
-Deployed through Heroku.
+Deployed via Heroku. The application was deployed to Heroku very easily. A new database is needed for production which is postgress, the SQLite database can be used for development. changes needed to be incorporated in the settings.py file and a secret key was removed and added to the config vars in Heroku.
