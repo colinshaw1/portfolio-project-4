@@ -40,72 +40,87 @@ CRSF verification would not work this was the most challenging part of the proje
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189748440-30672517-407b-4879-b8f9-031eb702f059.png)
 ----
+
 Adding a post on admin page
 -----
 ![image](https://user-images.githubusercontent.com/56481190/189750006-121d830a-a014-4a10-943f-3de5badc1e53.png)
 --
+
 Post added and shown in the list, where they can be searched for or filtered
 
 ![image](https://user-images.githubusercontent.com/56481190/189750492-fbac3eb5-5d4e-47a8-9136-d726968b14ee.png)
 --
+
 Home page deployed on Heroku
 --
 ![image](https://user-images.githubusercontent.com/56481190/221403634-ccce31a9-550f-4eba-9f4a-076bed3cf182.png)
 --
+
 Home screen 
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404446-62d47942-ea69-4c48-9176-55b528f260ce.png)
 
 --
+
 logged in home screen
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404426-a8b25d39-5724-4793-a5b9-8692985dbdb7.png)
 --
+
 Leave a review
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404471-34f43fa7-a920-4ede-9fdf-43e75424c035.png)
 --
+
 Editing a post
 --
 ![image](https://user-images.githubusercontent.com/56481190/221403741-975ae3b2-bac7-4d93-aa53-d2cebb12eb14.png)
 
 --
+
 Deleting post 
 --
 ![image](https://user-images.githubusercontent.com/56481190/221403757-35326dfd-41d4-4ea9-a7b9-f01bac72cc90.png)
 
 --
+
 Leaving a comment
 --
 ![image](https://user-images.githubusercontent.com/56481190/221403802-6984763d-f71c-4153-b166-9d57bc83973b.png)
 
 ---
+
 Comment awaiting approval
 ---
 ![image](https://user-images.githubusercontent.com/56481190/221403815-96d3d46e-e16d-4c13-89a3-13ef086125dc.png)
 
 ---
+
 Comment approved
 ---
 
 ![image](https://user-images.githubusercontent.com/56481190/221404299-4061f65c-7df6-44b8-8c8a-21256bb7d33a.png)
 
 --
+
 Liked a post
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404305-4b357016-fd8d-430d-b8b1-c749d56d0896.png)
 --
+
 Logout
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404335-1713aa16-de9a-4dad-9f5c-48c98e61fb43.png)
 
 --
+
 Sign In
 --
 
 ![image](https://user-images.githubusercontent.com/56481190/221404366-1f0bc86d-bf25-4ad4-ba48-bfd92b03e8f7.png)
 
 --
+
 Register
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404403-7da8330b-bf15-47dd-a7d3-6cd4615077e8.png)
@@ -150,7 +165,22 @@ Project finished and ReadMe file
 
 User Stories
 ---
-![image](https://user-images.githubusercontent.com/56481190/206549991-714eefbd-5898-4898-8670-222a7753f3b6.png)
+First Time User
+--
+a. As a user visiting the site for the first time you want to be able to understand the main objective of the application.
+b. As a user visiting the site for the first time you want to easily navigate the blog.
+c. As a user visiting the site for the first time you want to be able to set up a profile.
+d. A user can register for a profile.
+
+Frequent User
+--
+a. As a returning user you want to be able to log in to your profile.
+b. As a returning user you want to be able to logout once already logged in.
+c. A returning user is able to add a review.
+d. As a retruing user you want to be able to scroll the homeoage and click a review to read.
+e. As a returning user you want to be able to edit a review.
+f. As a returning user you want to be able to delete a preivious review.
+g. A returing user you want to leave a comment.
 
 ---
 User Experience
