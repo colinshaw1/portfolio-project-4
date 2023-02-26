@@ -47,25 +47,37 @@ Adding a post on admin page
 Post added and shown in the list, where they can be searched for or filtered
 
 ![image](https://user-images.githubusercontent.com/56481190/189750492-fbac3eb5-5d4e-47a8-9136-d726968b14ee.png)
-
+--
 Home page deployed on Heroku
-
+--
 ![image](https://user-images.githubusercontent.com/56481190/221403634-ccce31a9-550f-4eba-9f4a-076bed3cf182.png)
-
+--
 logged in home screen
-
+--
 ![image](https://user-images.githubusercontent.com/56481190/221403652-2551cccf-232f-41b5-a82f-3c854ff84c39.png)
+--
+Editing a post
+--
+![image](https://user-images.githubusercontent.com/56481190/221403741-975ae3b2-bac7-4d93-aa53-d2cebb12eb14.png)
 
+--
+Deleting post 
+--
+![image](https://user-images.githubusercontent.com/56481190/221403757-35326dfd-41d4-4ea9-a7b9-f01bac72cc90.png)
 
+--
 Leaving a comment
+--
+![image](https://user-images.githubusercontent.com/56481190/221403802-6984763d-f71c-4153-b166-9d57bc83973b.png)
 
-![image](https://user-images.githubusercontent.com/56481190/206542273-f0247098-b7d0-4f24-8707-0446a9723503.png)
-
+---
 Comment awaiting approval
+---
+![image](https://user-images.githubusercontent.com/56481190/221403815-96d3d46e-e16d-4c13-89a3-13ef086125dc.png)
 
-![image](https://user-images.githubusercontent.com/56481190/206542363-8bc5629c-045a-4b30-aeb7-36d110507dbe.png)
-
+---
 Comment approved
+---
 
 ![image](https://user-images.githubusercontent.com/56481190/206544744-27ce498d-4e68-4d01-9c8d-abc8e2bf44bb.png)
 
