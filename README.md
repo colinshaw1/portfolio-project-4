@@ -388,6 +388,7 @@ The same issue occurred for hosting in Heroku but was easily fixed after thinkin
 Responsive testing 
 ---
 Used https://www.websiteplanet.com/webtools/responsive-checker/ for testing responsivness of website
+
 Mobile
 --
 ![image](https://user-images.githubusercontent.com/56481190/221418281-4235e673-5aa9-41e9-a8a5-b1ec9447d9a2.png)
