@@ -50,11 +50,12 @@ Post added and shown in the list, where they can be searched for or filtered
 
 Home page deployed on Heroku
 
-![image](https://user-images.githubusercontent.com/56481190/206549363-4dbca0d1-e537-4768-bde0-6e5e1c888b20.png)
+![image](https://user-images.githubusercontent.com/56481190/221403634-ccce31a9-550f-4eba-9f4a-076bed3cf182.png)
 
 logged in home screen
 
-![image](https://user-images.githubusercontent.com/56481190/206542175-2f437c60-0a13-4374-a119-cb7f4760ae1b.png)
+![image](https://user-images.githubusercontent.com/56481190/221403652-2551cccf-232f-41b5-a82f-3c854ff84c39.png)
+
 
 Leaving a comment
 
