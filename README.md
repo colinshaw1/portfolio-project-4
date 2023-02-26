@@ -168,18 +168,26 @@ User Stories
 First Time User
 --
 a. As a user visiting the site for the first time you want to be able to understand the main objective of the application.
+
 b. As a user visiting the site for the first time you want to easily navigate the blog.
+
 c. As a user visiting the site for the first time you want to be able to set up a profile.
 d. A user can register for a profile.
 
 Frequent User
 --
 a. As a returning user you want to be able to log in to your profile.
+
 b. As a returning user you want to be able to logout once already logged in.
+
 c. A returning user is able to add a review.
+
 d. As a retruing user you want to be able to scroll the homeoage and click a review to read.
+
 e. As a returning user you want to be able to edit a review.
+
 f. As a returning user you want to be able to delete a preivious review.
+
 g. A returing user you want to leave a comment.
 
 ---
@@ -301,6 +309,7 @@ Resources
 Testing
 --
 All user stories below are evident in screenshots in the above screenshot section. 
+
 First Time User
 ----
 
