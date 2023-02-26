@@ -127,6 +127,7 @@ Register
 
 
 --
+
 Agile Methodology
 --
 ---
@@ -171,10 +172,11 @@ Development is progressing so it is time to see how templates are reacting and r
 
 
 --
+
 Development finishing up and the ReadMe file starting to get worked on.
 App is developed and deployed and now the final touches are added. The ReadMe file is getting updated with progress.
 --
-![image](https://user-images.githubusercontent.com/56481190/189648996-5b88e13a-5892-4431-8682-6b8b994d510b.png)
+
 
 ![image](https://user-images.githubusercontent.com/56481190/221417676-f20d34fc-1e22-43e3-b8ce-2769bd16cbb7.png)
 
