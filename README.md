@@ -229,20 +229,6 @@ Buttons
 • All other buttons use bootstraps secondary colour as it goes best with the dark themes. 
 
 
-Website users 
---
-
-• As a user, you want to be able to navigate clearly and hassle-free throughout the whole application. 
-
-• As a user, you want to be able to scroll and read the content on the website with no contrast. 
-
-• As a user, you want to be able to click on any link on the website to go to the source destination with no errors. 
-
-• As a user, you want to be able to fill out a comment and submit it with no issues.
-
-• As a user you want to be able to register, login and logout.
-
-• As a user you want to be able to like and comment on a post.
 
 Strategy Plane
 ---
