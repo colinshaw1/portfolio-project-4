@@ -27,7 +27,7 @@
                     <p class="card-body text-white bg-dark mb-3">{{ post.blogger }} | {{ post.created_on}}
                     <i class="far fa-heart"></i>{{ post.number_of_likes }}
                     {% with comments.count as total_comments %}<i class="far far fa-comments">{{ total_comments }}</i>
-                    {% endfor %}
+                    {% endwith %}
                     </p>
                        
                     
