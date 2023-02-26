@@ -385,6 +385,23 @@ Bugs
 CRSF verification would not work this was the most challenging part of the project. I needed tutor support to help show me how to fix this. the issue was related to Django 4, been recently fully released. I had to set a new variable in my settings.py file called CRSF_TRUSTED_ORIGINS, which is a list holding all the URLs of the site that are trusted and had to include my workspace. It needed to contain HTTPS at the start to stop the error. The port number had to be included which was what I was doing wrong I only had my workspace entered.
 The same issue occurred for hosting in Heroku but was easily fixed after thinking of how the problem above was solved.
 
+Responsive testing 
+---
+Used https://www.websiteplanet.com/webtools/responsive-checker/ for testing responsivness of website
+Mobile
+--
+![image](https://user-images.githubusercontent.com/56481190/221418281-4235e673-5aa9-41e9-a8a5-b1ec9447d9a2.png)
+
+Tablet
+--
+![image](https://user-images.githubusercontent.com/56481190/221418351-f6466af8-9395-47b1-a85f-3e3e151ff884.png)
+
+
+Desktop
+--
+![image](https://user-images.githubusercontent.com/56481190/221418329-80fc2755-bf7b-4ebc-a47a-eeeac31229ab.png)
+
+
 Validation
 ---
 
