@@ -155,6 +155,42 @@ User Stories
 ---
 User Experience
 --
+
+--
+Design
+--
+
+Wireframes
+--
+
+Homepage
+--
+![image](https://user-images.githubusercontent.com/56481190/221404990-4f9db42a-da7c-4fbc-8b29-44323d7c6a9b.png)
+
+Logged in
+--
+![image](https://user-images.githubusercontent.com/56481190/221405067-943c5a9a-65b8-4f24-824e-5e9247353b9b.png)
+
+Film review page
+--
+![image](https://user-images.githubusercontent.com/56481190/221405150-7cfd5e1b-314f-4801-b458-6507efabb345.png)
+
+--
+Other
+-- 
+The other web pages for adding a review, regsitering for an account, and editing a post will use bootstrap forms. 
+
+
+Colour Scheme
+---
+• A white background, with a bootstrap dark navabar and blog sections used bootstrap white text and a dark background.
+
+Buttons
+• Delete button uses bootstrap and a warning colour to make it stand out. 
+
+• All other buttons use bootstraps secondary colour as it goes best with the dark themes. 
+
+
 Website users 
 --
 
