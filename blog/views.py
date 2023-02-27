@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import View, generic
+from django.views import View, generic, request
 from .models import Post, Comment
 from .forms import CommentForm, PostForm
 from django.urls import reverse_lazy
@@ -112,7 +112,7 @@ class DeletePost(generic.DeleteView):
 
 
 # add view to delete comment
-class DeleteComment(generic.DeleteView):
+class DeleteComment(request):
     model = Post
     template_name = 'delete_comment.html'
     success_url = reverse_lazy('home')
