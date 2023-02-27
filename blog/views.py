@@ -112,7 +112,7 @@ class DeletePost(generic.DeleteView):
 
 # Add view for posting a film review
 class AddCommentView(generic.CreateView):
-    model = Post
+    model = Comment
     # form_class = PostForm
     template_name = "comment.html"
     fields = __all__
