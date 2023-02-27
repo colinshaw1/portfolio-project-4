@@ -26,6 +26,7 @@
                     <h3 class="card-header text-white bg-dark mb-3">Actors: {{ post.actor }}</h3>
                     <p class="card-body text-white bg-dark mb-3">{{ post.blogger }} | {{ post.created_on}}
                     <i class="far fa-heart"></i>{{ post.number_of_likes }}
+                    <i class="far fa-comments"></i>{{ post.number_of_comments }}
                     </p>
                     {% if user.is_authenticated %}
                     <a href="{% url 'details_post' post.slug  %}" class="btn btn-secondary">Read More &rarr;</a>
