@@ -115,4 +115,4 @@ class AddCommentView(generic.CreateView):
     model = Comment
     # form_class = PostForm
     template_name = "comment.html"
-    fields = __all__
+    fields = ('name','body','created_on' )
