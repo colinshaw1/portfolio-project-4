@@ -93,7 +93,7 @@
                         <!-- The body of the comment goes before the | -->
                         {{ comment.body | linebreaks }}
                     </div>
-                    <a href="{% url 'delete_comment' post.slug  %}" class="btn btn-warning">Delete Comment &rarr;</a>
+                    <!-- <a href="{% url 'delete_comment' post.slug  %}" class="btn btn-warning">Delete Comment &rarr;</a> -->
                     {% endfor %}
                     <!-- Our for loop ends here -->
                 {% endif %}
