@@ -1,6 +1,6 @@
 Film Blog
 --
-For my milestone project 4 for Code Institute Diplome in Software development, I have chosen Project Example Idea 2 Reddit Style News Site. This site will be for movie reviewers to be able to give their opinions on films, directors or Actors. Film Blog provides a platform for movie lovers to reach out and connect and share their ideas and thoughts. We are all critics at heart so it is great to be able to express yourself. It will be developed using Django which is a high-level Python web framework. 
+For my milestone project 4 for Code Institute Diploma in Software development, I have chosen Project Example Idea 2 Reddit Style News Site. This site will be for movie reviewers to be able to give their opinions on films, directors or Actors. Film Blog provides a platform for movie lovers to reach out and connect and share their ideas and thoughts. We are all critics at heart so it is great to be able to express yourself. It will be developed using Django which is a high-level Python web framework. 
 
 Heroku URL: https://ckz8780-django-filmblog-app.herokuapp.com/
 
@@ -41,7 +41,7 @@ CRSF verification would not work this was the most challenging part of the proje
 ![image](https://user-images.githubusercontent.com/56481190/189748440-30672517-407b-4879-b8f9-031eb702f059.png)
 ----
 
-Adding a post on admin page
+Adding a post on the admin page
 -----
 ![image](https://user-images.githubusercontent.com/56481190/189750006-121d830a-a014-4a10-943f-3de5badc1e53.png)
 --
@@ -62,7 +62,8 @@ Home screen
 
 --
 
-logged in home screen
+logged in to the home screen
+
 --
 ![image](https://user-images.githubusercontent.com/56481190/221404426-a8b25d39-5724-4793-a5b9-8692985dbdb7.png)
 --
@@ -92,7 +93,7 @@ Leaving a comment
 
 ---
 
-Comment approved
+Comment Approved
 ---
 
 ![image](https://user-images.githubusercontent.com/56481190/221682039-3fd1ac3a-9948-41d0-ac78-60d313f3b9dc.png)
@@ -126,7 +127,7 @@ Register
 Agile Methodology
 --
 ---
-For project management of Film, Blog Trello was used to track the Agile Methodology. 
+For the project management of Film, Blog Trello was used to track the Agile Methodology. 
 ---
 Start planning the Trello board
 Planning underway deciding tasks that are most important and how to plan and design the project
@@ -138,19 +139,20 @@ Project planning starts with drawing up wireframes of how the application will l
 ---
 ![image](https://user-images.githubusercontent.com/56481190/189648782-b9c86ab0-0271-48e5-86de-1d7c32ae9775.png)
 ---
-Design Phase under way
+Design Phase underway
 --
 
 ![image](https://user-images.githubusercontent.com/56481190/221417318-c89a463b-75e0-4b19-bfc4-082ebb87816f.png)
 
-Design pahse completed
+Design phase completed
 --
 ![image](https://user-images.githubusercontent.com/56481190/221417405-78f51b15-1021-45d5-a170-68224fdcdfb3.png)
 
 
 
 The planning stage is over and development starts and error fixing as progress through the plan.
-Development started and the app is under construction in gitpod. App is built using Django and models, views and templates are been used. Project plans and wireframes are finished.
+
+Development started and the app is under construction in gitpod.The app is built using Django and models, views and templates are been used. Project plans and wireframes are finished.
 ---
 ![image](https://user-images.githubusercontent.com/56481190/221417454-13cc42e8-6f77-4392-8e85-05b9dde8bd16.png)
 
@@ -201,17 +203,17 @@ Frequent User
 --
 a. As a returning user you want to be able to log in to your profile.
 
-b. As a returning user you want to be able to logout once already logged in.
+b. As a returning user you want to be able to log out once already logged in.
 
-c. A returning user is able to add a review.
+c. A returning user can add a review.
 
-d. As a retruing user you want to be able to scroll the homeoage and click a review to read.
+d. As a returning user you want to be able to scroll the homepage and click a review to read.
 
 e. As a returning user you want to be able to edit a review.
 
-f. As a returning user you want to be able to delete a preivious review.
+f. As a returning user you want to be able to delete a previous review.
 
-g. A returing user you want to leave a comment.
+g. A returning user you want to leave a comment.
 
 ---
 User Experience
@@ -239,7 +241,7 @@ Film review page
 --
 Other
 -- 
-The other web pages for adding a review, regsitering for an account, and editing a post will use bootstrap forms. 
+The other web pages for adding a review, registering for an account, and editing a post will use bootstrap forms. 
 
 
 Colour Scheme
@@ -247,6 +249,7 @@ Colour Scheme
 • A white background, with a bootstrap dark navabar and blog sections used bootstrap white text and a dark background.
 
 Buttons
+
 • Delete button uses bootstrap and a warning colour to make it stand out. 
 
 • All other buttons use bootstraps secondary colour as it goes best with the dark themes. 
@@ -255,7 +258,7 @@ Buttons
 
 Strategy Plane
 ---
-Filmblog was created and designed for movie lovers to have a safe and secure environment to share their thoughts on the film. Anyone can comment or like on a blog post. Users must be registered to leave a comment or like a post. Comments have to be approved by admin. 
+Filmblog was created and designed for movie lovers to have a safe and secure environment to share their thoughts on the film. Anyone can comment or like on a blog post. Users must be registered to leave a comment or like a post.
 
 Scope Plane
 --
@@ -324,11 +327,11 @@ First Time User
 
 a. As a user visiting the site for the first time you want to be able to understand the main objective of the application.
 
-• This is achieved and a user can easily find the way through the application. Users can use clickable buttons to register, login or read more to view a a blog post.
+• This is achieved and a user can easily find the way through the application. Users can use clickable buttons to register, login or read more to view a blog post.
 
 b. As a user visiting the site for the first time you want to easily navigate the blog.
 
-• Users will navigate through eaisly to be able to register, login or read a blog post.
+• Users will navigate through easily to be able to register, log in or read a blog post.
 
 c. As a user visiting the site for the first time you want to be able to set up a profile.
 
@@ -336,7 +339,7 @@ c. As a user visiting the site for the first time you want to be able to set up 
 
 d. A user can register for a profile.
 
-• When register button is clicked the user will be brought to the resgisteration form. The user can enter their detials and will be redirected the loffed in screen once they hit sign up. 
+• When the register button is clicked the user will be brought to the registration form. The user can enter their details and will be redirected to the login screen once they hit sign up. 
 
 
 Frequent User
@@ -345,35 +348,36 @@ a. As a returning user you want to be able to log in to your profile.
 
 • A returning user can log in easily if they have a profile set up.
 
-b. As a returning user you want to be able to logout once already logged in.
+b. As a returning user you want to be able to log out once already logged in.
 
-• A returning user clicks the logout button they will be logged out to the homescreen.
+• A returning user clicks the logout button they will be logged out to the home screen.
 
-c. A returning user is able to add a review.
+c. A returning user can add a review.
 
-• As a returning user once the add review button is clickd the user will be brought to the add review form. Here the user will enter the details of the film like the title, tags, director, actors and content about the film. Once the post button is clicked the user can post will be published to the application.
+• As a returning user once the add review button is clicked the user will be brought to the add review form. Here the user will enter the details of the film like the title, tags, director, actors and content about the film. Once the post button is clicked the user can post will be published to the application.
 
-d. As a retruing user you want to be able to scroll the homeoage and click a review to read. 
+d. As a returning user you want to be able to scroll the homepage and click a review to read. 
 
-• Once a returning user clicks the read more button, they will be brougth to the blog details page with the full review. 
+• Once a returning user clicks the read more button, they will be brought to the blog details page with the full review. 
 
 e. As a returning user you want to be able to edit a review. 
 
-• As a retruing user you can edit a review by clicking the edit button on the homepage and in the blog detials page. When in the edit form the user can edit there review detials and once finsihied clik the post button which will redirect them to the home page. 
+• As a returning user you can edit a review by clicking the edit button on the homepage and on the blog details page. When in the edit form the user can edit their review details and once finished click the post button which will redirect them to the home page. 
 
-f. As a returning user you want to be able to delete a preivious review. 
+f. As a returning user you want to be able to delete a previous review. 
 
-• As a returning user you are able to delete a review by clicking the yellow delete buttton. Once clicked the user will be brought to the delete psot bag. Here the user will see the title of the review to delete and a short message asking if they are sure they want to delete the review. Once the delete post button the review is deleted and the user is redirected to the homepage. 
+• As a returning user you can delete a review by clicking the yellow delete button. Once clicked the user will be brought to the delete post bag. Here the user will see the title of the review to delete and a short message asking if they are sure they want to delete the review. Once the delete post button the review is deleted and the user is redirected to the homepage. 
 
-g. A returing user you want to leave a comment. 
+g. A returning user you want to leave a comment. 
 
-• As a returning user you can leave a comment in the details page. Beside the previous comments card there is an add comment section. A user can write there review and click submit. Once submit is clicked a messsage will appear for the comment to be approved. Comments need to be approved incase of any unwated comments. 
+• As a returning user you can leave a comment on the details page. Besides the previous comments card, there is an added comment section. A user can write a comment and once submit is clicked the comment will appear in the comments section.
+
 
 
 Testing deployed code
 --
 
-Tested on desktop thorughout development. Checked in Google chrome thoughout devlopment. Checked on my mobile device a S22, my dads ipad and my work laptop. 
+Tested on desktop throughout development. Checked in Google chrome throughout development. Checked on my mobile device S22, my dad's iPad and my work laptop. 
 
 Bugs
 
@@ -406,7 +410,10 @@ Validation
 Version Control
 --
 
-GitHub and GitPod to update and commit changed to my repository all commits tracked to mark progress
+GitHub and GitPod to update and commit changes to my repository all commits tracked to mark progress
+
+In future versions, I would add more to the comments sections. I would edit and delete comments but for now, it is good with comments just allowed to be posted. 
+Also more around online profiles could be added in future versions like maybe adding pictures for profiles and usernames. 
 
 
 Deployment
