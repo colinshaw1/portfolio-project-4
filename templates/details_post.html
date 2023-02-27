@@ -79,7 +79,7 @@
                 {% if not post.comments.all %}
                     No comments left yet!!
                 {% else %}
-                <a href="{% url 'comment'post.slug %}">Add A Comment</a>
+                <a href="{% url 'comment' post.slug %}">Add A Comment</a>
                     <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
                     {% for comment in comments %}
                     <div class="comments" style="padding: 10px;">
