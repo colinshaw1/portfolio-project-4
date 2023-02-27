@@ -112,7 +112,7 @@ class DeletePost(generic.DeleteView):
 
 
 # add view to delete comment
-class DeleteComment(generic.DeleteView):
+class DeleteComment(generic.DeleteCommentView):
     model = Post
     template_name = 'delete_comment.html'
     success_url = reverse_lazy('home')
