@@ -3,12 +3,28 @@
 <h1>Add a comment!</h1>
 
 <!-- creationg a form with a post method -->
-<div class="form-group">
-    <form method="POST">
-        {% csrf_token %}
-        <!-- using djangos built in form builder -->
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-secondary btn-lg">Add Comment</button>
+<div class="col-md-4 card mb-4  mt-3 ">
+    <div class="card-body">
+             
+        <!-- added from for comments from course content -->
+        {% if commented %}
+        <div class="alert alert-success" role="alert">
+            Your comment is awaiting approval
+        </div>
+        {% else %}
+        {% if user.is_authenticated %}
+
+        <h3>Leave a comment:</h3>
+        <p>Posting as: {{ user.username }}</p>
+        <form method="post" style="margin-top: 1.3em;">
+            {{ comment_form | crispy }}
+            {% csrf_token %}
+            <br>
+            <button type="submit" class="btn btn-signup btn-secondary btn-lg">Submit</button>
+        </form>
+        {% endif %}
+        {% endif %}
+    </div>
 </div>
 
 {% endblock %}
