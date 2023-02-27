@@ -79,7 +79,6 @@
                 {% if not post.comments.all %}
                     No comments left yet!!
                 {% else %}
-                <a href="{% url 'comment' post.slug %}">Add A Comment</a>
                     <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
                     {% for comment in comments %}
                     <div class="comments" style="padding: 10px;">
@@ -96,6 +95,29 @@
                     </div>
                     {% endfor %}
                     <!-- Our for loop ends here -->
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-md-4 card mb-4  mt-3 ">
+            <div class="card-body">
+                     
+                <!-- added from for comments from course content -->
+                {% if commented %}
+                <div class="alert alert-success" role="alert">
+                    Your comment is awaiting approval
+                </div>
+                {% else %}
+                {% if user.is_authenticated %}
+
+                <h3>Leave a comment:</h3>
+                <p>Posting as: {{ user.username }}</p>
+                <form method="post" style="margin-top: 1.3em;">
+                    {{ comment_form | crispy }}
+                    {% csrf_token %}
+                    <br>
+                    <button type="submit" class="btn btn-signup btn-secondary btn-lg">Submit</button>
+                </form>
+                {% endif %}
                 {% endif %}
             </div>
         </div>
