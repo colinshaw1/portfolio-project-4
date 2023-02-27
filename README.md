@@ -420,3 +420,5 @@ Deployment
 --
 
 Deployed via Heroku. The application was deployed to Heroku very easily. A new database is needed for production which is postgress, the SQLite database can be used for development. changes needed to be incorporated in the settings.py file and a secret key was removed and added to the config vars in Heroku.
+To deploy to heroku has to be installed in the command line. Once this is done login to heroku needs to be done in the command line. then a procfile will need to be created and the following code added web: gunicorn filmblog.wsgi:application . Once logged in the procfile and the application is created on Heroku. The branch needs to be pushed to GitHub and Heroku using git push heroku main. 
+Once this is done once all commits will automatically push and deploy to heroku. 
