@@ -90,17 +90,12 @@ Leaving a comment
 
 ---
 
-Comment awaiting approval
----
-![image](https://user-images.githubusercontent.com/56481190/221403815-96d3d46e-e16d-4c13-89a3-13ef086125dc.png)
-
 ---
 
 Comment approved
 ---
 
-![image](https://user-images.githubusercontent.com/56481190/221404299-4061f65c-7df6-44b8-8c8a-21256bb7d33a.png)
-
+![image](https://user-images.githubusercontent.com/56481190/221682039-3fd1ac3a-9948-41d0-ac78-60d313f3b9dc.png)
 --
 
 Liked a post
