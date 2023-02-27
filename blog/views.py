@@ -109,3 +109,10 @@ class DeletePost(generic.DeleteView):
     model = Post
     template_name = 'delete.html'
     success_url = reverse_lazy('home')
+
+# Add view for posting a film review
+class AddCommentView(generic.CreateView):
+    model = Post
+    # form_class = PostForm
+    template_name = "comment.html"
+    fields = __all__
